@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+.cabeca {
+display: flex;
+justify-content: space-around;
+align-items: baseline;
+
+
+}
+.nome-jogo {
+    
+    padding-left:  50px;
+}
+.lista {
+    font-size: 1.4em;
+    list-style-type: none;
+    display: flex;
+    gap: 60px;
+    padding-right:50px ;
+    
+}
+
+.imagem{
+    background-image: url(/Imagens/Mateus.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 70vh;
+    margin: auto;
+    
+}
+
