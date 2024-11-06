@@ -139,6 +139,7 @@ a:hover{
     
 }
 .conteudo {
+    margin-top: 2.5em;
     font-family: arial;
     font-size: 0.5em;
     position: absolute;
@@ -182,6 +183,7 @@ a:hover{
     width: 45%;
     text-align: center;
     background-color: red;
+    padding: 0.6em;
     background: linear-gradient(to left, rgb(0, 0, 0), red); 
     text-shadow: 
         -1px -1px 0 #ffffff,  
@@ -189,6 +191,7 @@ a:hover{
         -1px 1px 0 #ffffff,  
          1px 1px 0 #ffffff;
     letter-spacing: 0.2em; 
+    font-size: 0,5em;
 }
 .conteudo-2 {
     max-width: 70ch;
