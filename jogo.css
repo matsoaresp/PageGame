@@ -1,3 +1,8 @@
+
+*{
+    scroll-behavior: smooth;
+}
+
 html {
     font-size: 65.2%;
 }
@@ -166,6 +171,23 @@ a:hover{
     
 
 }
+.subtitulo-2{
+    position: absolute;
+    right: 20px;
+    top: -30%;
+    color: white;
+    color: rgb(0, 0, 0);
+    width: 45%;
+    text-align: center;
+    background-color: red;
+    background: linear-gradient(to left, rgb(0, 0, 0), red); 
+    text-shadow: 
+        -1px -1px 0 #ffffff,  
+         1px -1px 0 #ffffff,  
+        -1px 1px 0 #ffffff,  
+         1px 1px 0 #ffffff;
+    letter-spacing: 0.2em; 
+}
 .conteudo-2 {
-    max-width: 80ch;
+    max-width: 100ch;
 }
