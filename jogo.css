@@ -2,16 +2,22 @@ html {
     font-size: 65.2%;
 }
 
+
 @font-face {
     font-family:'Super Squad' ;
-    src: url(/fonts/super_squad/Super\ Squad\ Italic.otf) 
+    src: url(/fonts/super_squad/Super\ Squad\ Italic.otf);
 }
+
+
+
 body{
     font-family: 'Super Squad', sans-serif;
     margin: 0;
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     letter-spacing: 0.2em;
+    overflow-x: hidden;
+    padding: 0;
 }
 
 .cabeca {
@@ -24,6 +30,13 @@ align-items: baseline;
 .nome-jogo {
     color: red;
     padding-left:  50px;
+    text-shadow: 
+        -1px -1px 0 #ffffff,  
+         2px -2px 0 #000000,  
+        -2px 2px 0 #000,  
+         1px 1px 0 #000;
+    letter-spacing: 0.2em; 
+    text-align: center;
 }
 .lista {
     font-size: 1.7em;
@@ -37,40 +50,122 @@ align-items: baseline;
 .imagem {
     background-image: url(/Imagens/Mateus.jpg);
     background-size: cover;
-    width: 95vw;
-    height: 70vh;
-    margin: auto;
+    width: 100vw;
+    height: 79vh;
+    margin: 0;
+    padding: 0;
     box-shadow: inset 300px 0 400px rgba(0, 0, 0, 1.9), 
                 inset -300px 0 400px rgba(0, 0, 0, 1.9);
+      transition: transform 0.30s ease;
+      background-position: center;
+      box-sizing: border-box;
+      overflow-x: hidden;
      
 }
 a {
     text-decoration: none;
     color: white;
 }
+
+a:hover{
+    color: red;
+    transition: 0.1s;
+    text-shadow: 
+    -1px -1px 0 #ffffff,  
+     2px -2px 0 #000000,  
+    -2px 2px 0 #000,  
+     1px 1px 0 #000;
+}
 .titulo {
     background-color: white;
-    height: 100vh;
+    height: 120vh;
     width: 98.9vw;
     color: black;
     display: flex;
     justify-content: center;
     font-size: 3em;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden; 
     
 
 }
 
 .titulo h1 {
     position: absolute;
-    top: 66%; 
+    top: 78%; 
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 3em; 
     color: red;
     z-index: 2; 
+
+} 
+.principal {
+    font-family: 'Super Squad', sans-serif;
+    font-size: 5em;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 
+        -2px -2px 0 #ffffff,  
+         2px -2px 0 #000000,  
+        -2px 2px 0 #000,  
+         1px 1px 0 #000;
+    letter-spacing: 0.1em; 
+    text-align: center;
 }
 
-.imagem {
-    position: relative; 
+
+.subtitulo {
+    position: absolute;
+    left: 20px;
+    top: 100%;
+    color: white;
+    color: rgb(0, 0, 0);
+    width: 45%;
+    text-align: center;
+    background-color: red;
+    background: linear-gradient(to left, rgb(0, 0, 0), red); 
+    text-shadow: 
+        -1px -1px 0 #ffffff,  
+         1px -1px 0 #ffffff,  
+        -1px 1px 0 #ffffff,  
+         1px 1px 0 #ffffff;
+    letter-spacing: 0.2em; 
+    
+}
+.conteudo {
+    font-family: arial;
+    font-size: 0.5em;
+    position: absolute;
+    top: 110%;
+    left: 20px;
+    max-width: 80ch;
+    color: white;
 }
 
+
+
+.demon {
+    height: 40%;
+    position: relative;
+    left: 20%;
+    top: 15%;
+    border-radius: 2%;
+}
+
+.parte-dois {
+    position: absolute;
+    top: 160%;
+    right: 10%;
+    display: flex;
+    justify-content: space-around;
+    justify-content: right;
+    font-family: arial;
+    color: white;
+    font-size: 0.5em;
+    
+
+}
+.conteudo-2 {
+    max-width: 80ch;
+}
