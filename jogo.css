@@ -172,6 +172,8 @@ a:hover{
 
 }
 .subtitulo-2{
+
+    font-family: 'Super Squad', sans-serif;
     position: absolute;
     right: 20px;
     top: -30%;
@@ -189,5 +191,5 @@ a:hover{
     letter-spacing: 0.2em; 
 }
 .conteudo-2 {
-    max-width: 100ch;
+    max-width: 70ch;
 }
