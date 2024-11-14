@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 .baba {
-	width: 80%;
+	width: 80vw;
 	margin: 10px auto;
 }
 .carousel {
@@ -13,7 +13,7 @@
 	display: flex;
 	height: 100%;
 	width: 1000%;
-	border: 1px solid red;
+	border: 1px solid rgb(0, 0, 0);
 	transition: all 0.7s;
 }
 .slider section {
@@ -64,4 +64,47 @@
 
 #Personagens{
    padding-top: 10%;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+
+#Personagens h2{
+    font-size: 50px;
+}
+section  {
+	
+	width: 100vw;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+ .slider img  {
+	height: 100vh;
+	width: 79.9vw;
+	background-size: cover;
+}
+
+.slider_texto{
+    position: absolute;
+    top: 75%;
+    color: red;
+    text-shadow: 
+        -1px -1px 0 #ffffff,  
+         1px -1px 0 #ffffff,  
+        -1px 1px 0 #ffffff,  
+         1px 1px 0 #ffffff;
+         font-size: 20px;
+}
+
+.bruxa {
+	margin-top: 25em;
+}
+.death {
+	margin-top: 25em;
+}
+.peixe {
+	margin-top: 25em;
+}
+.demonio {
+	margin-top: 25em;
 }
